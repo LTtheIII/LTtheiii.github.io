@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, sans-serif;
+}
+.timeline {
+	position: relative;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.timeline-item {
+	padding: 10px;
+	border-left: 2px solid #3498db;
+	margin: 20px 0;
+	position: relative;
+}
+.timeline-item::before {
+	content: "";
+	position: absolute;
+	left: -8px;
+	top: 10px;
+	width: 15px;
+	height: 15px;
+	background: #3498db;
+	border-radius: 50%;
+}
+.date {
+	font-weight: bold;
+        color: #3498db;
+}
+#carouselText {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.carousel-item img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
